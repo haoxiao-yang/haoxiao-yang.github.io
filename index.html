@@ -1,18 +1,19 @@
 <!DOCTYPE HTML>
 <html lang="en">
+<meta charset="UTF-8">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Your Name</title>
-  <meta name="author" content="Your Name">
+  <title>Haoxiao Yang's Homepage</title>
+  <meta name="author" content="Haoxiao Yang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
-    content="Your Name - Your Title/Position. Brief description of your research interests and goals.">
-  <meta name="keywords" content="Your Name, Your Institution, Your Research Areas">
+    content="Haoxiao Yang - Your Title/Position. Brief description of your research interests and goals.">
+  <meta name="keywords" content="Haoxiao Yang, Your Institution, Your Research Areas">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph tags for social media -->
-  <meta property="og:title" content="Your Name - Your Title">
+  <meta property="og:title" content="Haoxiao Yang - Your Title">
   <meta property="og:description" content="Your description here">
   <meta property="og:image" content="https://yourwebsite.com/figures/me.jpg">
   <meta property="og:url" content="https://yourwebsite.com/">
@@ -29,7 +30,7 @@
   <link rel="icon" type="image/png" href="figures/logo.png">
 
   <!-- Preload critical assets -->
-  <link rel="preload" href="figures/me.jpg" as="image">
+  <link rel="preload" href="figures/photo.jpg" as="image">
   <link rel="preload" href="https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2" as="font"
     type="font/woff2" crossorigin>
 
@@ -37,7 +38,7 @@
   <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
   <!-- Structured Data for SEO -->
-  <script type="application/ld+json">
+  <!-- <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -58,7 +59,7 @@
       "https://scholar.google.com/citations?user=YOURID"
     ]
   }
-  </script>
+  </script> -->
 
   <style>
     /* Homepage-specific styles */
@@ -108,8 +109,8 @@
 
     .profile-photo {
       flex-shrink: 0;
-      width: 160px;
-      height: 160px;
+      width: 256px;
+      height: 384px;
       margin-top: 8px;
       border: 1px solid #e5e7eb;
     }
@@ -127,6 +128,12 @@
       margin-bottom: 12px;
       padding-bottom: 4px;
       border-bottom: 1px solid #e5e7eb;
+    }
+
+    .edu-list {
+      list-style: none !important;
+      padding-left: 0 !important;
+      margin: 0 !important;
     }
 
     .news-list {
@@ -254,56 +261,55 @@
     <!-- Profile -->
     <div class="profile-section">
       <div class="profile-text">
-        <div class="name">Your Name</div>
-        <div class="pronunciation">(Optional pronunciation guide)</div>
+        <div class="name">Haoxiao Yang</div>
+        <!-- <div class="pronunciation">(Optional pronunciation guide)</div> -->
         <p class="bio">
-          Hi! I am a [Your Position] at <a href="https://yourinstitution.edu/">Your Institution</a>, supervised by Prof.
-          <a href="https://advisor-website.com/">Advisor Name</a>. Previously, I received my [degree] from
-          <a href="https://previous-institution.edu/">Previous Institution</a> under the supervision of Prof.
-          <a href="https://previous-advisor.com/">Previous Advisor</a>.
-          Brief description of your research interests and the questions you care about.
-        </p>
+        Hi! I am currently a Ph.D. student in at Purdue University, IN, USA. I received my M.Sc. from the Technical University of Munich, Germany, and my M.Eng. from Wuhan University, China (dual-degree program). Prior to that, I obtained my B.Eng. from Wuhan University, China.
         <p class="bio">
-          Feel free to reach out to me if you'd like to discuss research or explore potential collaboration!
+          My research interests include 3D vision, multimodal perception, and scene understanding.
         </p>
         <div class="profile-links">
-          <a href="mailto:your.email@institution.edu">Email</a> /
-          <a href="https://github.com/yourusername">Github</a> /
-          <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a> /
-          <a href="https://x.com/yourusername">Twitter</a> /
-          <a href="files/CV.pdf">CV</a> /
-          <a href="https://scholar.google.com/citations?user=YOURID">Google Scholar</a>
+         <a href="mailto:hxyang@purdue.edu">Email: hxyang@purdue.edu</a><span class="sep">  /  </span>
+          <a href="https://github.com/haoxiao-yang" target="_blank" rel="noopener">GitHub</a><span class="sep">  /  </span>
+          <a href="https://scholar.google.com/citations?user=bsoUm7sAAAAJ" target="_blank" rel="noopener">Google Scholar</a><span class="sep">  /  </span>
+          <a href="https://www.linkedin.com/in/haoxiao-yang-646138273" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
-      <img class="profile-photo" alt="Your Name" src="figures/me.jpg" loading="eager" width="160" height="160">
+      <img class="profile-photo" alt="Your Name" src="figures/photo.jpg" loading="eager" width="160" height="160">
     </div>
 
-    <!-- News -->
+
     <div class="homepage-section">
+      <h2>Education</h2>
+      <ul class="edu-list">
+        <li>Ph.D., <a href="https://www.purdue.edu/">Purdue University</a>, August 2026 &ndash; Present</li>
+        <li>M.Sc. , <a href="https://www.tum.de/">Technical University of Munich</a>, October 2023 &ndash; December 2025</li>
+        <li>M.Eng. , <a href="https://www.whu.edu.cn/">Wuhan University</a>, September 2022 &ndash; March 2026</li>
+        <li>B.Eng. , <a href="https://www.whu.edu.cn/">Wuhan University</a>, September 2018 &ndash; June 2022</li>
+      </ul>
+      </div>
+
+  <div class="homepage-section">
       <h2>News</h2>
       <ul class="news-list">
-        <li><span class="news-date">Month YYYY</span><span>A short news item describing a recent update, talk, or
-              milestone.</span></li>
+        <!-- <li><span class="news-date">Month YYYY</span><span>A short news item describing a recent update, talk, or
+              milestone.</span></li> -->
       </ul>
     </div>
 
-    <!-- Selected Papers -->
     <div class="homepage-section">
       <h2>Selected Papers</h2>
       <ul id="selected-papers-list" class="publication-list">
-        <!-- Populated by main.js -->
       </ul>
       <a href="publications.html" class="view-all">View all publications &rarr;</a>
     </div>
 
-    <!-- Selected Projects -->
-    <div class="homepage-section">
+    <!-- <div class="homepage-section">
       <h2>Selected Projects</h2>
       <ul id="projects-list">
-        <!-- Populated by main.js -->
       </ul>
       <a href="projects.html" class="view-all">View all projects &rarr;</a>
-    </div>
+    </div> -->
 
   </main>
 
